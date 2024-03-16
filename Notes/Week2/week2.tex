@@ -1,0 +1,550 @@
+\documentclass[../notes.tex]{subfiles}
+
+\pagestyle{main}
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter\ (#1)}{}}
+\stepcounter{chapter}
+
+\begin{document}
+
+
+
+
+\chapter{???}
+\section{???}
+\begin{itemize}
+    \item \marginnote{1/9:}Finishing up from last time's lecture to start.
+    \item Regio- and geometric isomers.
+    \begin{itemize}
+        \item Some monomers can react at two different sites (e.g., 1,4-butadiene).
+        \item There's also \emph{cis} and \emph{trans} isomerism when double bonds are in the polymer.
+        \item Three types of potential isomers.
+        \begin{itemize}
+            \item Structural isomers: 1,2- or 1,4-addition; this depends on the regiochemistry of the polymerization.
+            \item ...
+        \end{itemize}
+    \end{itemize}
+    \item \textbf{Copolymer}: A polymer in which two or more different monomers are incorporated into the polymer chain.
+    \begin{itemize}
+        \item \textbf{Terpolymers} and \textbf{tetrapolymers}, as well.
+        \item \textbf{Statistical}/\textbf{random} vs. \textbf{alternating} copolymers.
+    \end{itemize}
+    \item \textbf{Terpolymer}: A copolymer with 3 different monomer repeat units.
+    \item \textbf{Tetrapolymer}: A copolymer with 4 different monomer repeat units.
+    \item \textbf{Statistical} (copolymer): A copolymer in which the comonomers appear in irregular, unspecified sequences along the chain. \emph{Also known as} \textbf{random}.
+    \item \textbf{Alternating} (copolymer): A copolymer in which the comonomers occur in alternation.
+    \item \textbf{Block} (copolymer): A copolymer in which a long, linear sequences of polymer A is joined to a long, linear sequence of polymer B.
+    \item \textbf{Graft} (copolymer): ...
+    \item Polymer end groups.
+    \begin{itemize}
+        \item For a linear polymer, there are two end groups.
+        \item The more branches, the more end groups.
+        \item End group chemistry is often important and allows us to do fun stuff.
+        \item For addition and some ROPs, one end group comes from the initiator and the other from the termination process.
+        \begin{itemize}
+            \item "If we know how it dies, maybe we can keep it from dying a bit longer. A little bit of autopsy on the polymer allows us to keep it alive and growing for longer"
+        \end{itemize}
+        \item For step-growth polymers, the end groups are determined by the monomer.
+        \item Knowledge of the structure of the end groups allows\dots
+        \begin{itemize}
+            \item Determination of molecular weight (up to about 30,000 because after that, they're just too small to characterize).
+            \item Synthesis of block copolymers.
+        \end{itemize}
+    \end{itemize}
+    \item Key points of lecture 1, in summary.
+    \begin{itemize}
+        \item Many definitions related to macromolecules.
+        \item Different macromolecular...
+        \item Main takeaways:
+        \begin{itemize}
+            \item Mainly definitions.
+            \item If you understand the definitions, it will make everything else easier!
+        \end{itemize}
+    \end{itemize}
+    \item Reminder that this first lecture content is introducing us to stuff that we'll see throughout the rest of the course!
+    \item Moving onto today's lecture!
+    \item The next 2-3 lectures will be about radical polymerization of olefins.
+    \begin{itemize}
+        \item We could easily do 10 lectures on this stuff!
+        \item There's so much and so many things we can control and play with.
+    \end{itemize}
+    \item We'll be focusing on radical addition polymerization and the general propagation mechanism.
+    \begin{itemize}
+        \item Works for most olefin monomers.
+    \end{itemize}
+    \item \textbf{Radical polymerization}: ...
+    \item This method produces a lot of synthetic plastics.
+    \item Examples:
+    \begin{itemize}
+        \item PE (LDPE, LLDPE, HDPE).
+        \item PP.
+        \item PVC.
+        \item PS.
+        \item Acrylates and fluoropolymers (e.g., teflon).
+        \item \emph{More in the slides.}
+    \end{itemize}
+    \item Olefin substituents.
+    \begin{itemize}
+        \item Isobutene and vinyl ethers don't really work, but pretty much everything else can.
+        \item Anything with a strong EDG won't work.
+        \item This is useful to remember when he gives us a monomer and wants us to tell him how to polymerize it!
+    \end{itemize}
+    \item Overview of free radical process.
+    \begin{itemize}
+        \item Key: The \emph{rate}.
+        \begin{itemize}
+            \item Difficult to measure because there are a ton of different reactions at different points all happening in the same one pot.
+        \end{itemize}
+        \item Initiation, propagation, termination.
+        \begin{itemize}
+            \item We'll talk about each of these separately, plus their kinetics, and then pull everything back together.
+        \end{itemize}
+    \end{itemize}
+    \item The mechanism of radical polymerization.
+    \begin{itemize}
+        \item Initiation step: Throw a radical progenerator into the reaction, heat it up so that it splits into two radicals that \emph{then} do the reaction.
+        \item Reaction.
+        \begin{equation*}
+            \ce{I ->[$k_d$] 2R*}
+        \end{equation*}
+        \item $k_d$ is given by the Arrhenius equation
+        \begin{equation*}
+            k_d = A\e[-Ea/RT]
+        \end{equation*}
+        \item ...
+    \end{itemize}
+    \item Thermal initiators.
+    \item AIBN.
+    \begin{itemize}
+        \item AIBN (2,2'-azobisisobutyronitrile) will be found in almost every polymer lab.
+        \emph{screenshot}
+        \item The reaction goes because \ce{N2} is a thermodynamic sink, and because the nitrile group acts as an EWG to stabilize the radical.
+        \item Where do $k_d$ and $E_a$ come from?
+        \item We can measure time vs. nitrogen evolution and know that the two will have a logarithmic relationship so $t$ vs. $\ln(l_0/l)$ will be linear.
+    \end{itemize}
+    \item Benzoyl peroxide.
+    \begin{itemize}
+        \item This one is even slightly stronger than AIBN.
+        \item The weak \ce{O-O} bond is the driving force for this decomposition.
+        \item Same stuff as in acne creme and tooth whiteners!
+    \end{itemize}
+    \item There are hundreds of examples of thermal initiators!
+    \emph{table}
+    \begin{itemize}
+        \item Which one you uses depends.
+        \item For one, you want your initiator to be soluble in the monomer.
+        \item If the monomer boils below the initiation temperature, that's not good!
+        \item Oftentimes, polymer chemists get so caught up in the kinetics that they forget practical things like, "is my initiator soluble in my monomer?"
+    \end{itemize}
+    \item Key takeaways on thermal initiators.
+    \begin{enumerate}
+        \item The difference in the decomposition rate...
+    \end{enumerate}
+    \item Initiator half-lives.
+    \begin{itemize}
+        \item We don't need to memorize this table, but it's good to know!
+        \item We should be able to look at a chemical structure and know which of two initiators initiates faster.
+    \end{itemize}
+    \item Two ways to do the course: Memorize absolutely everything, or understand how to work things out.
+    \item The fate of free radicals.
+    \begin{itemize}
+        \item A small percentage of benzoyl radicals will decarboxylate and give you the phenyl radical.
+        \item Most of the reaction will react via the middle route because the radical there can be stabilized by resonance delocalization into the aromatic ring (vs. 2) and we're not breaking aromaticity (vs. 3).
+        \item Not all radicals initiate new chains; a big waste product is BPO, which is when two radicals react. This brings us to the next topic.
+    \end{itemize}
+    \item \textbf{Initiation efficiency}: The fraction of radicals formed in the primary step of initiator decomposition which are successful in initiating polymerization. \emph{Denoted by} $\bm{f}$. \emph{Given by}
+    \begin{equation*}
+        f = \frac{\text{radicals incorporated into the polymer}}{\text{radicals formed by the initiator}}
+    \end{equation*}
+    \begin{itemize}
+        \item Temperature- and solvent-dependent.
+        \item ...
+        \item Primary reasons $f<1$.
+        \begin{itemize}
+            \item \textbf{Solvent cages}.
+            \item Increasing viscosity of the reaction medium.
+        \end{itemize}
+        \item Viscosity.
+        \begin{itemize}
+            \item This is chain-growth, so we get HWt polymers really quickly.
+            \item Increasing viscosity means that the lifetime of radicals in solvent cages increases.
+            \item Example: AIBN for polystyrene decreases from 0.75 to 0.2 as conversion increases from 30\% to 60\%.
+        \end{itemize}
+    \end{itemize}
+    \item \textbf{Solvent cage}: An ephemeral, transient group of solvent molecules that forms around radicals.
+    \begin{itemize}
+        \item The presence of a solvent cage traps radicals and increases rate of recombination\dots basically molecules in solution act like they are encapsulated.
+        \item This is an explanation of why our $f$ might be crappy, but we don't really worry about it or do anything about it.
+    \end{itemize}
+    \item Mechanism and kinetics of initiation.
+    \begin{itemize}
+        \item Two reactions: Decomposition and addition to monomer.
+        \item Decomposition is the RDS (think of the long half-lives!).
+        \begin{itemize}
+            \item Typical values for $k_d=\SI{e-3}{\per\second}$...
+            \item 
+        \end{itemize}
+        \item Thus, the rate $R_i$ of initiation will equal the rate $R_d$ of decomposition, yielding the differential equation
+        \begin{equation*}
+            R_i = R_d
+            = -2\dv{[\ce{I}]}{t}
+            = \dv{[\ce{R*}]}{t}
+            = 2k_d[\ce{I}]
+        \end{equation*}
+        \item Taking $f$ into account,
+        \begin{equation*}
+            R_i = 2k_df[\ce{I}]
+        \end{equation*}
+    \end{itemize}
+    \item Initiation is the easy step, and you see how much that was!
+    \item We now move into propagation.
+    \item Mechanism and kinetics of propagation.
+    \begin{itemize}
+        \item $k_{p2}$ is the rate of monomer to dimer.
+        \item $k_{p3}$ is the rate of dimer to trimer.
+        \item Instead of having to consider thousands of rate constants, the rate of reaction is independent of molecular weight to a very good approximation.
+        \item Thus, a general scheme is
+        \begin{equation*}
+            \ce{R(M)_n* + M ->[$k_p$] R(M)_{n+1}}
+        \end{equation*}
+        \item It follows that the rate of propagation is
+        \begin{equation*}
+            R_p = k_p[\ce{M}][\ce{M*}]
+        \end{equation*}
+        \item Typical values for $k_p=$...
+        \item The fact that the propagation kinetics work so well implies that there's no reason to do polymerizations at high temperature \emph{except} for the issue of the initiator.
+    \end{itemize}
+    \item Mechanism and kinetics of termination.
+    \item \emph{cnc = [\ce{H}] command}
+    \begin{itemize}
+        \item Several mechanisms.
+        \item You can have termination via combination. This is $k_{tc}$:
+        \begin{equation*}
+            R_{tc} = 2k_t[\ce{M*}]^2
+        \end{equation*}
+        \item You can have termination via disproportionation.
+        \item \emph{Similar kinetics.}
+        \item There are other forms of death (such as reacting with an initiator radical), but these two are dominant.
+        \begin{itemize}
+            \item For example, the concentrator of initiator is so much lower than that of growing polymers that it is much more likely for two growing polymers to mutually terminate.
+        \end{itemize}
+        \item These varying forms of death imply that you don't have control over chain ends in a radical mechanism.
+        \item Overall rate of termination:
+        \begin{equation*}
+            R_t = 2k_2[\ce{M*}]^2
+        \end{equation*}
+    \end{itemize}
+    \item The rate of propagation is faster than the rate of termination because the rate of propagation depends on $[\ce{M}]$, which is very large (much larger than $[\ce{M*}]$).
+    \begin{itemize}
+        \item This is true even though $k_t\gg k_p$; it's just that $[\ce{M*}]\lll[\ce{M}]$.
+    \end{itemize}
+    \item ...
+    \item Olefin substituents.
+    \begin{itemize}
+        \item Free radical polymerizations can be carried out with most vinyl monomers.
+        \item Radical stabilization of the growing polymer happens with most species.
+        \item However, there are exceptions.
+        \begin{enumerate}
+            \item Strong EDGs.
+            \item 1-alkyl olefins and 1,2-dialkyl olefins.
+        \end{enumerate}
+        \item Remember: Propylene, for example, cannot be polymerized under free radical conditions.
+        \begin{itemize}
+            \item This is because of delocalization/resonance because an allyl radical is much more stable than the polymer radical.
+        \end{itemize}
+        \item Reactivity.
+        \emph{scale}
+        \begin{itemize}
+            \item Reactive monomers have substituents which stabilize the polymeric radical by resonance stabilization.
+            \item So styrene is one of the most reactive monomers.
+            \item The greater the gain in stability, the greater the incentive for the monomer to react.
+            \item There are exceptions: We can polymerize ethylene, even though its substitutents don't help; styrene will always react first with a radical.
+            \item It's flipped with growing radical stability, though: A radical generated in the middle of building PE will react much more quickly than a radical generated in the middle of building PS.
+        \end{itemize}
+    \end{itemize}
+    \item Thus, overall, polymerization rate is determined by a compromise between monomer and polymer reactivity.
+    \begin{itemize}
+        \item Example: Vinyl acetate goes super fast.
+        \item Most reactive radical and most reactive monomer go the fastest.
+        \begin{itemize}
+            \item What does this mean tho?? Because won't a vinyl acetate radical immediately bind to a styrene radical and then not react with vinyl acetate again?
+        \end{itemize}
+    \end{itemize}
+    \item Olefin substituents: Structural isomerization.
+    \begin{itemize}
+        \item ...
+        \item Tacticity.
+        \begin{itemize}
+            \item \textbf{Meso diads} vs. \textbf{racemic dads}.
+            \item Lead to the 3 tacticity types...
+        \end{itemize}
+        \item The racemic form is usually slightly preferred over the meso structure because of sterics and/or electrostatic repulsion...
+    \end{itemize}
+    \item W 9:30-10:30 in the morning is a second discussion section.
+    \item Th class will be virtual.
+    \item 300-level class has papers, plus 25\% of exam.
+\end{itemize}
+
+
+
+\section{???}
+\begin{itemize}
+    \item \marginnote{1/11:}More on the importance of tacticity.
+    \begin{itemize}
+        \item Isotactic PP is very common; it's a durable material.
+        \item Atactic PP is just a goo.
+        \item $T_m$ vs. $T_g$.
+    \end{itemize}
+    \item Polymerization kinetics.
+    \begin{itemize}
+        \item Last class, we derived the rates of initiation, propagation, and termination.
+        \item How do we look at the overall rate of reaction?
+        \begin{itemize}
+            \item Propagation is the RDS, so that's what's most important!
+        \end{itemize}
+        \item Rates of initiation and termination are essentially the same; this is the \textbf{steady state approximation}.
+        \begin{itemize}
+            \item This allows us to say
+            \begin{align*}
+                R_i &= R_t
+                2k_df[\ce{I}] &= 2k_t[\ce{M*}]^2\\
+                [\ce{M*}] = \left( \frac{k_df[\ce{I}]}{k_t} \right)^{1/2}
+            \end{align*}
+            \item Substituting, we obtain
+            \begin{equation*}
+                R_p = k_p[\ce{M}][\ce{M*}]
+                = k_p[\ce{M}]\left( \frac{k_df[\ce{I}]}{k_t} \right)^{1/2}
+                = k'[\ce{M}][\ce{I}]^{1/2}
+            \end{equation*}
+            where $k'$ combines all constants.
+        \end{itemize}
+    \end{itemize}
+    \item To confirm that this math is valid, let's look at some experimental data.
+    \begin{itemize}
+        \item The plot of $R_p$ vs. $[\ce{I}]^{1/2}$ is linear.
+        \item The plot of $R_p$ vs. $[\ce{M}]$ is linear.
+    \end{itemize}
+    \item Linear systems work well, but only to a point, leading to\dots
+    \item Autoacceleration.
+    \emph{picture}
+    \begin{itemize}
+        \item Deviations from the general kinetic expressions do occur. ONe type of deviation is referred to as the \textbf{gel effect}.
+    \end{itemize}
+    \item \textbf{Gel effect}: Generally, one would expect from the standard kinetic expression that $R_p$ would decrease with increasing time/conversionas both $[\ce{M}]$ and $[\ce{I}]$ decrease; however, particularly in bulk or concentrated solutions, a sharp increase in $R_p$ is observed. \emph{Also known as} \textbf{Tommsdorff effect}, \textbf{Norris-Smith effect}, \textbf{Norris-Tommsdorff effect}.
+    \begin{itemize}
+        \item This happens because of chain entanglements, which reduce the mobility of the polymer chain radicals.
+        \begin{itemize}
+            \item Chain entanglement, like wet spaghetti, dramatically increase viscosity.
+        \end{itemize}
+        \item In such viscous media, the diffusion rates of the polymer become very low and $k_t$ is dramatically reduced. Thus, from the equation above, an increase in both $R_p$ and $X_n$ occurs.
+        \begin{itemize}
+            \item Recall that all termination steps require two polymer chains to come together! If they're diffusing more slowly, they're less likely to come together.
+        \end{itemize}
+    \end{itemize}
+    \item The above allows us to think about kinetics at the molecular level.
+    \item Other types of initiators: Redox.
+    \begin{itemize}
+        \item Many redox reactions can be used to generate radicals which initiate polymerization.
+        \item AdvantageA: Radical rpoduction occurs at a reasonable rate over a broad range of temperatures.
+        \begin{itemize}
+            \item Consequence: Lower temperatures are accessible (\SIrange{0}{50}{\celsius}) than with thermal homolysis of initiators.
+        \end{itemize}
+        \item Peroxides in combination with a reducing agent are frequently employed.
+        \begin{itemize}
+            \item Hydrogen peroxide + ferrous ion: \ce{H2O2 + Fe^2+ -> HO- + HO* + Fe^3+}.
+            \item ...
+            \item ...
+            \item Other reductants can be employed instead of \ce{Fe^2+}; it depends on the system!
+            \item Solubility can be an issue for these redox systems; these are mostly used in \emph{aqueous} or emulsion systems.
+        \end{itemize}
+        \item If you're thinking of doing a redox polymerization, there are some changes to the rate\dots
+    \end{itemize}
+    \item Redox initiation.
+    \begin{itemize}
+        \item Return to the equation
+        \begin{equation*}
+            R_p = k_p[\ce{M}]\left( \frac{R_i}{2k_t} \right)^{1/2}
+        \end{equation*}
+        \item For redox initiation, we have
+        \begin{equation*}
+            R_i = k_d[\text{reductant}][\ce{oxidant}]
+        \end{equation*}
+        \item Thus, the polymerization rate $R_p$ of a free radical polymerization initiated by a redox reaction is...
+        \item Note that in this type of initiation, only \emph{one} radical is produced, not two!
+    \end{itemize}
+    \item Other types of initiators: Photochemical.
+    \begin{itemize}
+        \item Photochemical initiation\footnote{Like in the Lin lab!}.
+        \item Light absorption by some compound in the system either\dots
+        \begin{itemize}
+            \item Directly causes the compound to decompose into radicals;
+            \item Leads to an excited species which transfers its energy to a second compound, which in turn decomposes into radicals.
+        \end{itemize}
+        \item Advantages.
+        \begin{itemize}
+            \item Polymerization can be carried out in a spatially directed manner by irradiating selective zones: ...
+        \end{itemize}
+    \end{itemize}
+    \item \textbf{Photochemical initiation}: When radicals are produced by irradiation of the reaction system with UV or visible light.
+    \item Photochemical initiators.
+    \begin{itemize}
+        \item Typically UV curable.
+        \item Consider solubility, absorption spectrum, \textbf{quantum yield}, etc.
+        \item Type 1: \textbf{Cleavage}.
+        \begin{itemize}
+            \item 2,2-dimethoxy-2-phenylacetophenone is a super common one.
+            \item So is benzoin.
+        \end{itemize}
+        \item Type 2: \textbf{Abstraction}.
+    \end{itemize}
+    \item \textbf{Quantum yield}: How well does the compound absorb photons going into the system?
+    \item \textbf{Cleavage}: Unimolecular bond cleavage upon irradiation.
+    \item \textbf{Abstraction}: Bimolecular mechanism where excited molecule reacts with a second molecule (coinitiator) to generate free radicals, e.g., benzophenone amine.
+    \item \textbf{Kinetic chain length}: The number of monomer molecules consumed per active species (radical) which initiates a chain. \emph{Denoted by} $\bm{\nu}$. \emph{Given by}
+    \begin{equation*}
+        \nu = \frac{R_p}{R_i}
+        = \frac{R_p}{R_t}
+        = \frac{k_p[\ce{M}][\ce{M*}]}{2k_t[\ce{M*}]^2}
+        = \frac{k_p[\ce{M}]}{2k_t[\ce{M*}]}
+        = \frac{k_p^2[\ce{M}]^2}{2k_tR_p}
+        = \frac{k_p[\ce{M}]}{2(k_tfk_d[\ce{I}])^{1/2}}
+        = k''[\ce{M}][\ce{I}]^{-1/2}
+    \end{equation*}
+    \begin{itemize}
+        \item How big the polymer is going to get.
+        \item The kinetic chin length is very related to the degree of polymerization.
+        \item Tells you what you can control to get heavier polymers!
+        \item Note: An increase in the rate of polymerizatino by increasing the radical concentration will decrease the kinetic chain length.
+    \end{itemize}
+    \item \textbf{Number-average degree of polymerization}: The average number of repeat units contiained in a macromolecule. \emph{Denoted by} $\bm{\overline{X}_n}$.
+    \begin{itemize}
+        \item Related to the $\nu$.
+        \item If the termination process is by combination, then $\overline{X}_n$.
+        \item If the terminatio process is by disproportionation, then $\overline{X}_n=\nu$.
+        \item If $a$ is the fraction of chains which terminate by combination, then $\overline{X}_n=2\nu/(2-a)$.
+        \item Most polymer radicals appear to terminate predominantly by coupling (almost exclusively: styrene, methyl acrylate, acrylonitrile).
+        \item Disproportionation increases when the propagating radical is sterically hindered or features many $\beta$-hydrogens available for transfer (methyl methacrylate undergoes termination by combination 33\% with 67\% disproportinoation at \SI{25}{\celsius}).
+    \end{itemize}
+    \item \textbf{Number-average molecular weight}: The following quantity. \emph{Denoted by} $\bm{\overline{M}_n}$. \emph{Given by}
+    \begin{equation*}
+        \overline{M}_n = M_0\overline{X}_n
+    \end{equation*}
+    \item Chain transfer in radical polymerizations.
+    \begin{itemize}
+        \item A premature termination process that accounts for lower-than-expected $M_n$.
+        \item Chain transfer agents may be monomer, initiator, solvent, or another substance. Sometimes we want to promote this!
+        \item The rate of chain transfer is given by
+        \begin{equation*}
+            R_{tr} = k_{tr}[\ce{M*}][XA]
+        \end{equation*}
+        \item Chain transfer differs from termination in that it results in the formation of a new radical which can initiate a new polymer chain.
+        \item ...
+    \end{itemize}
+    \item Effect of the chain transfer on molecular weight.
+    \begin{itemize}
+        \item The degree of polymerization for a polymerization which has chain transfer is
+        \begin{align*}
+            \overline{X}_n &= \frac{R_p}{(2-a)(R_t/2)+R_{tr,M}+R_{tr,S}+R_{tr,I}}\\
+            &= \frac{R_p}{(2-a)(R_t/2)+k_{tr,M}[\ce{M*}][\ce{M}]+k_{tr,S}[\ce{M*}][\ce{S}]+k_{tr,I}[\ce{M*}][\ce{I}]}
+        \end{align*}
+        where $a$ is the fraction of chains which terminate by combination; 100\% combination implies $a=1$.
+    \end{itemize}
+    \item \textbf{Chain transfer constant}: The ratio of the rate of chain transfer $k_{tr}$ of the propagating radical with the substance to the rate of propagation of the radical. \emph{Denoted by} $\bm{C}$. \emph{Given by}
+    \begin{align*}
+        C_M &= \frac{k_{tr,M}}{k_p}&
+        C_S &= \frac{k_{tr,S}}{k_p}&
+        C_I &= \frac{k_{tr,I}}{k_p}
+    \end{align*}
+    \item \textbf{Mayo equation}: ...
+    \begin{itemize}
+        \item If a solvent otherwise works but has a very high chain transfer constant, you may not want to use it!
+    \end{itemize}
+    \item The chemistry of chain transfer.
+    \item Chain transfer to monomer.
+    \begin{itemize}
+        \item $C_M$ is generally small because the reaction usually involve breaking the stronger vinyl \ce{C-H} bond.
+        \item The largest monomer transfer constants are generally observed when the propagating radicals have very high reactivites, such as with ethylene, vinyl acetate, and vinyl chloride.
+        \item We often have head-to-tail cheistry, but here we have some more head-to-head chemistry??
+        \item Vinyl chloride's high value of $C_M$ is also related to a reaction sequence that originates in a propagating center formed by head-to-head addition.
+        \item $C_M$ is really what places the upper limit on the polymer molecular weight. For example, the high $C_M$ of vinyl chloride limits the $M_n$ of PVC to 50,000-100,000, whereas with polyethylene, we can get into the millions.
+    \end{itemize}
+    \item Chain transfer to initiator.
+    \begin{itemize}
+        \item Greater than chain transfer to monomer.
+        \item However, transfer to initiator is governed by $C_I$, $[\ce{I}]/[\ce{M}]$, and $[\ce{I}]$ is usually small (\SIrange{e-4}{e-2}{\molar}).
+        \item Azo initiator:
+        \begin{equation*}
+            \ce{M_n* + RN=NR -> M_n-R + N_2 + R*}
+        \end{equation*}
+        \item Peroxides:
+        \begin{equation*}
+            \ce{M_n* + RO-OR -> M_n-OR + RO*}
+        \end{equation*}
+        \item Hydroperoxides:
+        \begin{equation*}
+            \ce{M_n* + RO-OH -> M_n-H + ROO*}
+        \end{equation*}
+        \item You have to take into account the nature of the polymer radical as well!
+    \end{itemize}
+    \item Chain transfer to chain transfer agent.
+    \begin{itemize}
+        \item If transfer to the chain transfer agent dominates, then the Mayo equation simplifies to
+        \begin{equation*}
+            \frac{1}{\overline{X}_n} = \left( \frac{1}{\overline{X}_n} \right)_0+C_S\frac{[\ce{S}]}{[\ce{M}]}
+        \end{equation*}
+        where $(1/\overline{X}_n)_0$ is the value of $1/\overline{X}_n$ in the absence of the chain transfer agent.
+    \end{itemize}
+    \item Reactivity of chain-transfer agent.
+    \begin{itemize}
+        \item Aliphatic hydrocarbons have strong \ce{C-H} bonds, hence show low transfer constants.
+        \item Benzene has an even lower transfer constant because of the stron \ce{C-H} bonds in this aromatic and the instability of the aryl radical.
+        \item The presence of more weakly bound hydrogen atoms in toluene, ethylbenzene, etc. leads to higher $C_S$ values for these species when compared to benzene. The benzylic proton is readily abstracted because of resonance stabilization.
+        \item Primary halides such as $n$-butyl chloride and $n$-butyl bromide behave similar to aliphatics and feature low $C_S$ values; by contrast, the weak \ce{C-I} bond in $n$-butyl iodide leads to an increased $C_S$ value.
+        \item Acids, carbonyl compounds, ethers, amines, and alcohols have highet transfer constants,corresponding to breakup of the \ce{C-H} bond and stabilization of the radical by an adjacent \ce{O}, \ce{N}, or carbonyl group.
+        \item The weak \ce{S-S} bond leads to high $C_S$ values for disulfides.
+        \begin{itemize}
+            \item Note that disulfides are good chain transfer agents, but not good initiators because the radical is more stable.
+        \end{itemize}
+        \item The high $C_S$ values fro carbon tetrachloride and carbon tetrabromide are due to the excellent resonance stabiliaation of the trihalocarbon radicals.
+        \begin{itemize}
+            \item The weaker \ce{C-Br} bond in \ce{CBr4} leads to a substantial increase in $C_S$.
+        \end{itemize}
+        \item Thiols have the largest $C_S$ values of any known compounds, due to the weak \ce{S-H} bond.
+        \item Transfer agents...
+        \item Use of the Mayo equation once again for moderation??
+    \end{itemize}
+    \item Chain transfer to a polymer.
+    \begin{itemize}
+        \item Can create a propagation site anywhere along the polymer chain, which can lead to a branched polymer.
+        \item Becomes important when the polymerization is carried out to high conversion.
+        \item Example: polyethylene.
+        \begin{itemize}
+            \item Two main types of branches: Long and short.
+            \item Long branches are formed as before from reactions between disparate chains.
+            \item Short branches outnumber the longer branches by 20-50 tiemes. These form via \textbf{backbiting}.
+        \end{itemize}
+    \end{itemize}
+    \item \textbf{Backbiting}: The radical site of propagation moving back a few carbons in a stable, six-membered ring.
+    \emph{picture}
+    \begin{itemize}
+        \item Typical PE produced by radical polymerization contains 5-15...
+        \item May seem small, but has a massive effect on properties.
+        \item Gives you LDPE.
+        \item HDPE is \emph{not} mede free-radically! It's made using insertion catalysts, which we'll cover later.
+    \end{itemize}
+    \item \textbf{Retardation} and \textbf{inhibition}.
+    \begin{itemize}
+        \item Quinones are example inhibitors.
+        \begin{itemize}
+            \item They inhibit the reaction until the concentration is fully consumed, then polymerization resumes.
+        \end{itemize}
+        \item Nitrobenzene is an example retarder.
+    \end{itemize}
+    \item \textbf{Inhibitor}: An agent that \emph{prevents} radical polymerization by reacting with the initiating and propagating radicals and converting them to nonradical species or radicals of reactivity too low to undergo polymerization.
+    \item \textbf{Retarder}: An agent that \emph{slows} radical polymerization by reacting with a fraction of the initiating and propagating radicals and converting them to nonradical species or radicals of reactivity too low to undergo polymerization.
+    \item The class that Rowan thought would be virtual in a couple weeks \emph{should} be in-person. All the rest should be as well!
+\end{itemize}
+
+
+
+
+\end{document}

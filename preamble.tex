@@ -3,7 +3,10 @@
 \usepackage{fancyhdr}
 \usepackage{marginnote}
 \usepackage{enumitem}
+\usepackage{siunitx}
 \usepackage{amsmath,amssymb}
+\usepackage{bm,physics}
+\usepackage{mhchem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{subfiles}
 
@@ -23,3 +26,8 @@
 \setitemize[3]{label={\scriptsize$\blacksquare$}}
 
 \reversemarginpar
+
+\sisetup{range-phrase=-,range-units=single}
+\DeclareSIUnit{\molar}{M}
+
+\newcommand{\e}[1][]{\text{e}^{#1}}

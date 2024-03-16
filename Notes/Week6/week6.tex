@@ -1,0 +1,198 @@
+\documentclass[../notes.tex]{subfiles}
+
+\pagestyle{main}
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter\ (#1)}{}}
+\setcounter{chapter}{5}
+
+\begin{document}
+
+
+
+
+\chapter{???}
+\section{Ring-Opening Polymerizations}
+\begin{itemize}
+    \item \marginnote{2/6:}Relevant reading: Odian, Chapter 7.
+    \item \textbf{Ring-opening polymerization}: The conversion of cyclic monomers into polymers via a ring opening process. \emph{Also known as} \textbf{ROP}.
+    \item Introduction.
+    \begin{itemize}
+        \item The impact of size is very important in ROP.
+        \item You need a way to \emph{kinetically} open the ring.
+        \item There can be an \emph{equilibrium} between macrocyclic and linear species.
+        \begin{itemize}
+            \item This equilibrium is big.
+            \item In order to induce polymerization, the equilibrium has to be driven toward the linear side.
+        \end{itemize}
+        \item Not every ring can be polymerized; one of the big things in this class is learning how to determine which rings can be polymerized.
+        \item A monomer require ring strain (thermodynamic) and a nucleophilic site (kinetic).
+    \end{itemize}
+    \item Monomers that can be polymerized via ROP.
+    \begin{itemize}
+        \item We'll talk about most of the monomers on this slide.
+        \item First half: Polymerizing ethers and ester.
+        \begin{itemize}
+            \item Then different ones.
+        \end{itemize}
+        \item Poly-$\varepsilon$-caprolactam is nylon!
+        \item There is a polymer called polysulfur that is just a bunch of sulfur atoms in a chain!
+    \end{itemize}
+    \item General mechanism (two basic types).
+    \begin{enumerate}
+        \item Cationic ROP.
+        \begin{itemize}
+            \item We get a positive charge (e.g., oxonium) and then the charge transfers after nucleophilic attack.
+        \end{itemize}
+        \item Anionic ROP.
+        \begin{itemize}
+            \item The anion on the growing chain attacks the monomer.
+        \end{itemize}
+    \end{enumerate}
+    \item Major driving force: Ring strain.
+    \begin{itemize}
+        \item This is a more thermodynamic factor and is the relative stability of the cyclic monomer vs. linear polymer.
+        \begin{itemize}
+            \item We \emph{can} use entropy to drive this, but most often, we take $\Delta H\ll 0$.
+        \end{itemize}
+        \item ...
+    \end{itemize}
+    \item Bond angle distortion.
+    \begin{itemize}
+        \item This is the primary way to drive polymerization.
+        \item 3- and 4-membered rings have the most distorted bond angles and are very reactive toward polymerization.
+        \item \textbf{Transannular strain} increases strain in an 8-membered ring.
+        \begin{itemize}
+            \item 8-membered rings are actually \emph{great} to polymerize.
+        \end{itemize}
+        \item A 6-membered ring is the most thermodynamically stable; except for a \emph{few} known exceptions, these do not polymerize.
+        \begin{itemize}
+            \item Example: Trioxane; the oxygens get us away from ideal bond angles because of their lone pairs!
+        \end{itemize}
+        \item Thus, \emph{en toto}, the thermodynamic feasibility for polymerization in terms of ring number is
+        \begin{equation*}
+            3,4 > 8 > 5,7 \gg 6
+        \end{equation*}
+    \end{itemize}
+    \item Kinetic factors.
+    \begin{itemize}
+        \item Require functionality (a nucleophile) in the ring, which allows propagation to occur.
+        \item The rate of polymerization depends on both the reactivity of the monomer and active species.
+        \begin{itemize}
+            \item The question is, "which is more important?" The \emph{nucleophilic} nature of the monomer and the \emph{electrophilic} nature of the active species.
+        \end{itemize}
+        \item Aziridine is more nucleophilic than cyclopropoxide because the nitrogen is less electronegative than the oxygen.
+        \item In general, the higher the basicity of the parent monomer, the lower the reactivity of the active species derived from this monomer toward the standard monomer.
+        \item The rate constant $k_p$ of homopropagation overall decreases as the nucleophilicity of Z in the monomer increases because the activity of the active species controls the rate of homopropagation.
+        \item This tells us that in the transition state, the bond breaking is more advanced (it's driving the polymerization) than the bond making.
+    \end{itemize}
+    \item Thermodynamics of polymerization of cyclic ethers and acetals.
+    \begin{itemize}
+        \item Observe that 3- and 4-membered cyclics are comparable to those for alkenes.
+        \item Substitution on the ring generally decreases tendency to polymerize because of sterics.
+        \item 6-membered rings are generally difficult to polymerize.
+        \item Generally, the larger the ring, the lower the entropic cost.
+    \end{itemize}
+    \item Comparison to olefin chain and step-growth polymerization.
+    \begin{itemize}
+        \item Initiators required, similar to cationic and anionic initiators used in olefin polymerizations.
+        \item Shows similar characteristics to those described for ionic olefin polymerizations: Effect of solvent, counterion, propagation by different species (covalent, ion pair, free ions).
+        \item Growth process similar to chain polymerization in that only monomer adds to growing chain.
+        \item However, rate constants are closer to step-growth polymerizations and there is a slower build up of molecular weight...
+        \begin{itemize}
+            \item This means that it's easier to get living polymerizations with this technique because the reactions are less fast.
+        \end{itemize}
+    \end{itemize}
+    \item The following kinetics are almost identical to the alkene case.
+    \item Thus, Rowan will focus more on the \emph{chemistry} than the \emph{kinetics}.
+    \item Chemistry of ROPs.
+    \begin{itemize}
+        \item Very similar to step-growth polymerizations, but with no condensation product.
+        \item ...
+        \item In THF, the positive charge converts oxygen into a good leaving group and we just do S\textsubscript{N}2.
+        \item Aside: You should never use a strong cation in THF solvent because the cation will just polymerize it!
+    \end{itemize}
+    \item Cationic Ring-Opening Polymerization (CROP).
+    \begin{itemize}
+        \item Propagation with a \emph{cationic} species.
+        \item General characteristics.
+        \begin{itemize}
+            \item The cyclic monomers require a nucleophilic site. In general, the nucleophilic site in ROP is more nucleophilic than a double bond.
+            \item Shows most of the characteristics of vinyl cationic polymerization.
+            \item ...
+        \end{itemize}
+    \end{itemize}
+    \item Initiation.
+    \begin{itemize}
+        \item Similar to cationic!
+        \item Use a Br\o nsted (protic) acid.
+        \item Stable organic salts work well.
+        \item Lewis acids can also help out.
+        \item You can also do initiation with a covalent compound.
+        \begin{itemize}
+            \item Use strong alkylating or acylating agents.
+            \item Depends on the nature of the nucleophile in the ring.
+            \item \ce{RBr} is good for amines and oxazolines.
+            \item \ce{ROSO2CF3} is good for acetals or ethers (O); it's a \emph{very} good \textbf{methylation agent}.
+            \begin{itemize}
+                \item This also means that you should not use an alkylating agent in THF!
+                \item We can think of \ce{CF3SO3} as an almost \emph{dormant} species, because once it is bound to a chain end, it can just react with THF again!
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \item Propagation.
+    \begin{itemize}
+        \item Three possible propagation mechanisms.
+        \begin{enumerate}
+            \item Activated chain-end (ACE) mechanism (ionic species).
+            \item Activated chain-end (ACE) mechanism (covalent species, pseudocationic).
+            \item Activated monomer (AM) mechanism.
+        \end{enumerate}
+        \item Which propagation mechanism occurs depends on the nucleophile in the ring and the initiator.
+        \item Examples of ACE and AM.
+        \item Both ACE and AM can occur simultaneously in the polymerization process. The AM mechanism (which reduces the amount of cyclics formed during polymerization) can predominate if the ratio of $[\text{Monomer}]/[\ce{HO-}]$ is kept low, i.e., slow addition of monomer to the reaction mixture.
+        \item We can get backbiting in AM mechanisms; polymerizing ethylene oxide cationically just gets you a bunch of dioxane, which is just a thermodynamic well that you fall into.
+        \begin{itemize}
+            \item Adding a small smidge of alcohol in will preferentially react with the activated monomer.
+            \item Not the best ever; ACE will still be actively generating dioxane. But not bad.
+        \end{itemize}
+    \end{itemize}
+    \item Transfer and termination.
+    \begin{itemize}
+        \item Almost all analogous to cationic alkene polymerization.
+        \item Chain transfer to polymer.
+        \begin{itemize}
+            \item Probably the most common mode of transfer in this case.
+            \item If intermolecular, we'll get some mixing of molecular weights as chains exchange their growing fragments.
+            \item We can get intramolecular backbiting, too.
+        \end{itemize}
+        \item Termination by irreversible recombination.
+        \begin{itemize}
+            \item Three different nucleophiles can react with the active cationic species.
+            \begin{enumerate}
+                \item Monomer (leads to propagation).
+                \item ...
+            \end{enumerate}
+        \end{itemize}
+        \item Termination with polymer.
+        \begin{itemize}
+            \item We can get branched structures that are fairly stable and don't react further.
+        \end{itemize}
+        \item Termination by counterion.
+        \item Termination by reactions with other compounds in the system: Solvent and impurities.
+        \begin{itemize}
+            \item Termination by water does occur. However, it is less important than in vinyl cationic polymerization on account of the cyclic monomer being more nucleophilic than the vinyl monomer.
+            \item Termination by reaction of more reactive species existing in equilibrium with stable onium species.
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+
+
+
+\section{???}
+\begin{itemize}
+    \item \marginnote{2/8:}I was at the CCRF national scholars luncheon.
+\end{itemize}
+
+
+
+
+\end{document}

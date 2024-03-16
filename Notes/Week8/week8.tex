@@ -1,0 +1,457 @@
+\documentclass[../notes.tex]{subfiles}
+
+\pagestyle{main}
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter\ (#1)}{}}
+\setcounter{chapter}{7}
+
+\begin{document}
+
+
+
+
+\chapter{???}
+\section{???}
+\begin{itemize}
+    \item \marginnote{2/20:}Relation of reactivity to chemical structure.
+    \begin{itemize}
+        \item Polar effects: Alternation.
+        \item Enhanced reactivities are observed between certain pairs of monomers on account of subtle radical monomer interactions, which can lead to alternating tendency in such polymerizations.
+        \item This is observed between copolymerization of electron rich and electron poor double bonds.
+        \begin{itemize}
+            \item Example: Styrene (electron-rich) and maleic anhydride (electron-poor).
+        \end{itemize}
+    \end{itemize}
+    \item Reactivity ratios.
+    \begin{itemize}
+        \item Many ways to visually represent these, such as \textbf{reactivity triangles}.
+        \item Shows that as you get greater difference between electron rich and electro poor, $r_1r_2$ approaches 0.
+    \end{itemize}
+    \item Reactivity ratios summary.
+    \begin{itemize}
+        \item A great visual description of everything discussed last time.
+        \item Very concise, too!
+        \item Emphasis: "Random" and "statistical" are \emph{not} interchangeable!
+    \end{itemize}
+    \item Composition drift.
+    \begin{itemize}
+        \item The copolymerization equtions give the instantaneous copolymer composition.
+        \item However, in all copolymerizations except \textbf{azeotropic copolymerizations}, the comonomer feed changes in composition as one of the monomers gets incorporated preferentially into the polymer. This leads to a drift in monomer composition to the less reactive monomer.
+        \item There's a kind of hexagonal (view it three-dimensionally!) chart that summarizes all this.
+    \end{itemize}
+    \item \textbf{Azeotropic} (copolymerization): The formation of a copolymer for which the overall composition of copolymer monomeric units equal to the composition of the feed.
+    \item Summary.
+    \begin{itemize}
+        \item The key parameters in copolymerization are the reactivity ratios, which influence the relative rates at which a given radical will add to the same monomer vs. a comonomer.
+        \item The copolymerization equation relates the mole fraction of monomers in the polymer to the composition of the feedstock via the reactivity ratios.
+        \begin{itemize}
+            \item Different classes of behavior may be assigned based on the product of the reactivity ratios...
+        \end{itemize}
+        \item Statistical considerations give predictions for the average sequence length and sequence length distributions in a copolymer on the basis of reactivity ratios and feedstock composition.
+    \end{itemize}
+    \item That's it for the last topic.
+    \item Now it's onto step-growth polymerizations.
+    \item Step-growth polymerizations: An introduction.
+    \begin{itemize}
+        \item This is a review of the intro slides.
+        \item The invention of step polymerization is often credited to Wallace Hume Carothers and Julian Hill.
+        \item They prepared polyesters from propylene glycol and hexadecanedioic acid to make artificial silk fibers (1929 at DuPont).
+        \item Conclusions.
+        \begin{itemize}
+            \item Difficult to produce high molecular weight polymers.
+            \item $M_n$ initially limited to \numrange{1500}{4000}; acid catalyst increases $M_n$.
+            \item Equilibrium reaction; remove water to increase $M_n$ to 12,000.
+            \item Conclude that...
+            \item "Atractive appearance" is a direct quote --- old chemists were very descriptive!.
+            \item ...
+            \item From a JACS paper in 1929.
+        \end{itemize}
+    \end{itemize}
+    \item Some commercial step-growth polymers.
+    \begin{itemize}
+        \item Polyester, nylon, Kevlar, polyurethane, etc.
+    \end{itemize}
+    \item Step-growth polymerization: Introduction.
+    \begin{itemize}
+        \item Di-acids and di-amides.
+        \item In many step-growth reactions, a low-molecular weight byproduct (\ce{X}) is prouduced.
+        \item Because the reactions are equilibriums, the byproduct must be removed to shift the equilibrium to the product side and create high-molecular weight products.
+        \item Since the byproduct is often removed by condensation (\ce{H2O}, \ce{MeOH}, \dots), the reaction is termed \textbf{polycondensation}.
+        \item Thus, for historical reasons, the terms step-growth polymerization and polycondensation are often used synonomously, althoughthis is not always correct.
+        \begin{itemize}
+            \item Important exception: Urethanes do not produce any condensation product.
+        \end{itemize}
+    \end{itemize}
+    \item Step-growth polymerization: General mechanism.
+    \begin{itemize}
+        \item Mechanism: Oligomers combine.
+        \item Rapid disappearance of monomer species.
+        \begin{itemize}
+            \item Makes these harder to track by NMR.
+        \end{itemize}
+        \item Reactivity of functional groups is independent of chain length.
+        \item Molecular weight increases slowly.
+        \item No initiator (although catalyst can help kinetics).
+        \begin{itemize}
+            \item This makes the kinetics a bit easier actually.
+        \end{itemize}
+        \item Chain ends are still active.
+    \end{itemize}
+    \item Molecular weight.
+    \begin{itemize}
+        \item What is a polymer?
+        \begin{itemize}
+            \item Controversial question.
+            \item Rowan says when you get above the entanglement rate.
+        \end{itemize}
+        \item Practical consideration.
+        \begin{itemize}
+            \item Only polyners with $M_n$ of $>\SI{10000}{\gram\per\mole}$ have useful mechanical properties.
+            \item Note: Electronic polymers may be useful at lower $M_n$.
+        \end{itemize}
+        \item \textbf{Structural unit} = \textbf{monomer unit} = \textbf{residue}, e.g., a diol or diacid..
+        \item \textbf{Repeat unit}: A segment of one or more structural units that repeats along the polymer chain.
+        \item The \textbf{number-averaged ...}
+    \end{itemize}
+    \item Number average degree of polymerization.
+    \begin{itemize}
+        \item Can be simply defined as the total number of molecules originally present in the system $N_0$ divided by the total number of molecules in the system after the polymerization $N$.
+        \item If [\ce{M}] is the concentration of molecules, then
+        \begin{equation*}
+            \overline{X}_n = \frac{N_0}{N}
+            = \frac{[\ce{M}]_0}{[\ce{M}]}
+        \end{equation*}
+        \item $X_n$ can also be related to the concentration of one of the functional groups [\ce{M}] present after a fraction $p$ has been reacted, where $[\ce{M}]_0$ is the initial concentration of one of the functional group.
+        \item A bit more stuff gets you back to \textbf{Carothers Equation}, proposed by Carothers in 1936.
+        \begin{equation*}
+            \overline{X}_n = \frac{1}{1-p}
+        \end{equation*}
+        \begin{itemize}
+            \item This emphasizes the need for nearly quantitative chemistry once again (i.e., chemistry for which $p\to 1$).
+        \end{itemize}
+    \end{itemize}
+    \item Number-average molecular weight.
+    \begin{itemize}
+        \item Defined as the total weight of a polymer sample divided by the total number of moles in it.
+        \item Given by
+        \begin{equation*}
+            \overline{M}_n = \frac{\sum N_xM_x}{\sum N_x}
+            = M_0\overline{X}_n+M_\text{eg}
+            = \frac{M_0}{1-p}+M_\text{eg}
+        \end{equation*}
+        \item It is important to note for type AA + BB polymerizations, the repeat units contain bits of both monomers. Therefore, $M_0$ is the \textbf{mean molecular weight} of the two structural units (see below)...
+    \end{itemize}
+    \item What is the impact of the Carothers equation?
+    \begin{itemize}
+        \item Step-growth polymerization is challenging.
+        \item If your chemistry isn't perfect and your reaction isn't driving you to high conversions, it's not going to work.
+    \end{itemize}
+    \item Molecular weight and stoichiometric.
+    \begin{itemize}
+        \item The reactant ratio $r$ (\emph{not to be confused} with the reactivity ratio; horrible choice of notation).
+        \item For non-stoichiometric monomer ratios, the \textbf{reactant ratio} $r$ is introduced.
+        \begin{equation*}
+            r = \frac{N_{\ce{A}}}{N_{\ce{B}}}
+        \end{equation*}
+        \begin{itemize}
+            \item Note that $r\leq 1$.
+            \item $N_{\ce{A}},N_{\ce{B}}$ are the numbers of functional groups \ce{A} and \ce{B} initially present.
+        \end{itemize}
+        \item The total number $N_0$ of molecules initially present becomes
+        \begin{equation*}
+            N_0 = \frac{N_{\ce{A}}+N_{\ce{B}}}{2}
+            = ...
+        \end{equation*}
+        \item ...
+        \item We get to
+        \begin{equation*}
+            \overline{X}_n = \frac{1+r}{1+r-2rp}
+        \end{equation*}
+        \item Table.
+        \item Chart.
+    \end{itemize}
+    \item Molecular weight control.
+    \begin{itemize}
+        \item ...
+        \item Since in step polymerization, DP (degree of polymerization) is a function of reaction time, it can --- in principle --- be controlled by the latter (i.e., the reaction can be quenched once the desired molecular weight is obtained).
+    \end{itemize}
+    \item Molecular weight and stoichiometric.
+    \begin{itemize}
+        \item Case of an AA/BB polymerization.
+        \begin{itemize}
+            \item Monomer BB is used in excess.
+        \end{itemize}
+        \item End cappers case.
+        \begin{itemize}
+            \item ...
+            \item Here, we have
+            \begin{equation*}
+                r = \frac{N_{\ce{A}}}{N_{\ce{B}}+2N_{\ce{B}}'}
+            \end{equation*}
+        \end{itemize}
+        \item Type 3: For an \ce{A-B} monomer, the $r$ is automatically 1.
+    \end{itemize}
+    \item Molecular weight distribution.
+    \begin{itemize}
+        \item Most probable dispersity is 2.
+        \item Breadth of molecular weight distribution.
+        \item We also have the weight-averaged degree of polymerization.
+    \end{itemize}
+    \item General considerations on step-growth polymerization chemistry.
+    \begin{itemize}
+        \item High degree of polymerization only at high conversions.
+    \end{itemize}
+    \item Basic chemistry of carboxylic acid derivatives.
+    \begin{itemize}
+        \item Functional group and type of polymer.
+        \item To polymerize these guys, all we need is OChem II.
+        \item We heat the monomers to \SI{200}{\celsius} under vacuum and just drive off the water.
+        \begin{itemize}
+            \item This is super easy to do at large scale.
+            \item This is why nylon is produced commercially: We can just heat it up really hot and in bulk batches.
+        \end{itemize}
+        \item Polycarbonates: Alcohol plus phosgene.
+        \item Polyurethanes: Alcohol plus isocyanate.
+        \item We can utilize all of these chemistries!
+    \end{itemize}
+\end{itemize}
+
+
+
+\section{???}
+\begin{itemize}
+    \item \marginnote{2/22:}Final is 3/5, 10-12 in this room.
+    \item Last time, we started talking about chain-growth polymerizations. What do we remember?
+    \begin{itemize}
+        \item You want your stoichiometry to be as close to one as possible.
+        \item We want things to be nearly quantitative.
+        \item Works well in large batch.
+        \item Sometimes we need a catalyst; initiators aren't needed, though.
+        \item We need to drive the polymerizations by removing the condensation product.
+        \item Most recyclable commercial plastic right now is PET (\underline{p}oly\underline{e}thylene\underline{t}ethalate).
+        \begin{itemize}
+            \item We can \emph{chemically} recycle this since it has an ester backbone. (vs. \emph{mechanical} recycling)
+            \item This is fairly new...
+        \end{itemize}
+    \end{itemize}
+    \item Basic chemistry of carboxylic acid derivatives.
+    \begin{itemize}
+        \item This mechanism is similar for polyester, polyamide, polyimide, etc.
+        \item An acid-catalyzed process adds an acid to the carbonyl. This makes the carbon even more electrophylic. We get to the tetrahedral intermediate, and then electrons kick down and kick out hydroxide/water.
+        \item Every step is completely reversible and we have to account for this when we think about the kinetics.
+        \item Removing the water uses Le Ch\^{a}telier's Principle to drive the equilibrium to the right.
+        \item The rate-limiting step is the alcohol/amine reacting with the activated acid ($k_3$).
+    \end{itemize}
+    \item Kinetics of the polyesterification of diacid and diol.
+    \begin{itemize}
+        \item Equal reactivity of the functional groups on each end of the monomer.
+        \item The reactivity of the FGs is largely independent of chain length.
+        \item Reaction state can be monitored by looking at how many intact end groups you have left.
+        \item The rate of reaction is expressed in terms of the concentrations of the reacting FGs.
+        \item The rate of polyesterification:
+        \begin{equation*}
+            R_p = -\dv{[\ce{R-COOH}]}{t} = ...
+        \end{equation*}
+        \item ...
+        \item $[\ce{R-C(OH)2+}]$ is difficult to measure. However,
+        \begin{equation*}
+            K = \frac{[\ce{R-C(OH)2+}]}{[\ce{R-COOH}][\ce{HA}]}
+        \end{equation*}
+        \item Therefore,
+        \begin{equation*}
+            R_p = ...
+        \end{equation*}
+        \item Now we can also have a self-catalyzed polymerization.
+        \begin{itemize}
+            \item In the absence of additional strong acid, \ce{R-COOH} assumes the role of \ce{HA}.
+        \end{itemize}
+        \item Thus, here,
+        \begin{equation*}
+            R_p = -\dv{[\ce{R-COOH}]}{t} = k[\ce{R-COOH}]^2[\ce{R-OH}]
+        \end{equation*}
+        \begin{itemize}
+            \item The experimentally determined rate constant $k$ in this equation equals $Kk_3$.
+            \item This is a third-order reaction.
+        \end{itemize}
+        \item ...
+        \item In terms of the \textbf{extent} or \textbf{fraction of conversion}
+        \begin{equation*}
+            p = \frac{[\ce{M}]_0-[\ce{M}]}{[\ce{M}]_0}
+        \end{equation*}
+        we have that
+        \begin{align*}
+            2kt &= \frac{1}{[\ce{M}]^2}-\frac{1}{[\ce{M}]_0^2}\\
+            & ...
+        \end{align*}
+    \end{itemize}
+    \item Accessibility of functional groups.
+    \begin{itemize}
+        \item To yield a high-MW polymer, the polymer must not precipitate from the polymerization mixture before the desired molecular weight is reached.
+        \item Often tricky due to the limited choice of solvents that dissolve the polymer and are compatible with the reaction conditions.
+        \item In xylene, the polymer precipitats at once.
+        \item In nitrobenzene, the polymer precipitates after \SI{30}{\minute}.
+        \item In DMSO, the polymer is directly soluble.
+    \end{itemize}
+    \item Equilibrium considerations.
+    \begin{itemize}
+        \item Most step polymerizations involve equilibrium reactions. Thus, it is important to elucidate how the equilibrium affects the extent of conversion. Compare closed system with open system.
+    \end{itemize}
+    \item Equilibrium conditions (closed).
+    \begin{itemize}
+        \item The polymer and condensation products build up until the rate of the reverse reaction (depolymerization) equals that of the forward.
+        \item The equilibrium constant equals
+        \begin{equation*}
+            K = \frac{p^2}{(1-p)^2}
+        \end{equation*}
+        \item It follows that
+        \begin{equation*}
+            p = \frac{\sqrt{K}}{1+\sqrt{K}}
+        \end{equation*}
+        \item This tells you that your equilibrium constant basically has to be in the hundreds of thousands or millions to get anything resembling polymer.
+        \item Esterification equilibrium constant is somewhere between 1 and 10, so it definitely has to be driven.
+        \begin{itemize}
+            \item Amides are 100-1000.
+            \item In a closed system, you'll never defeat the laws of thermodynamics.
+        \end{itemize}
+        \item We get
+        \begin{equation*}
+            \overline{X}_n = 1+K^{1/2}
+        \end{equation*}
+    \end{itemize}
+    \item Equilibrium conditions (open).
+    \begin{itemize}
+        \item High MWT polymers require an open, driven system: At least one of the products of the forward reaction must be removed to drive the equilibrium towards high molecular weights.
+        \item Remove volatile, low-molecular weight byproducts such as water, methanol, etc. with temperature, reduced pressure, and purging with an inert gas (e.g., nitrogen or argon).
+        \item HCl can be removed by adding a base to neutralize the acid once created.
+        \item Sometimes the product is eliminated from the reaction because it precipitates.
+        \item You can get diffusion control as viscocity skyrockets; this is how you get bubbles in your polymer.
+        \item We get
+        \begin{equation*}
+            \overline{X}_n = \left( \frac{K[\ce{M}]_0}{[\ce{H2O}]} \right)^{1/2}
+        \end{equation*}
+        \item Thus, even with a crappy $K$, we can get high molecular weight with water removal.
+        \item We don't need to remove all of the water.
+        \item There are engineering approaches to removing water and preventing bubbles, such as thing sheets and curing, running the system in an emulsion to aid SA:Volume ratio, etc. It doesn't all have to be in a big vat!
+    \end{itemize}
+    \item Polymerization vs. cyclization.
+    \begin{itemize}
+        \item A polymer can react intramolecularly and close up into a ring.
+        \item In most any chain-growth polymerization, you will get some competitive ring formation.
+        \item You do have to pay an entropy penalty to bring the two chain ends close together, but it will still happen in some equilibrium.
+        \item Ring formation is usually undesired.
+        \item Whether for a particular system ring-formation is competitive with lienar polymerization depends on both thermodynamics and kinetic considerations.
+        \item We don't often form small rings; if you're designing a polymerization and you know that six-membered rings could form, that's not one you'd choose to run because you'll just be fighting against that the entire time.
+    \end{itemize}
+    \item Kinetics of cyclization.
+    \begin{itemize}
+        \item Kinetic feasibility.
+        \item The kinetic feasibility of ring formation depends on the probability of two groups of the reactant molecule to approach each other to react.
+        \item As the potential ring size increases, the molecule...
+        \item Kinetic feasibility decreases with ring size.
+        \begin{itemize}
+            \item You need a good solvent that swells the chain and makes it stretch out rather than bunch.
+        \end{itemize}
+    \end{itemize}
+    \item Tendency of cyclization.
+    \begin{itemize}
+        \item The easiest ring to form kinetically is three. It's terrible thermodynamically, but it's kinetically great.
+        \item Thus, we've got a balance.
+        \item The effect of cyclization is also counterbalanced by the concentration factor; high concentration = fewer cycles; low concentration = more cycles.
+        \item Many commercial processes remove low molecular cyclics by estraction or devolatization or boiling them off at really high temperatures.
+        \item Early in the chart, it's kinetically feasible.
+        \item Later on, ring strain is no longer a problem and we're entirely in the realm of kinetics.
+    \end{itemize}
+    \item Interchange reactions.
+    \begin{itemize}
+        \item Some polymers (polyesters, polyamides, etc.) can --- under appropriate conditions...
+    \end{itemize}
+    \item Step-growth copolymers.
+    \begin{itemize}
+        \item Homopolymers are easy.
+        \item Copolymers; we can get different values for the numbers of polymers.
+        \item Alternatign copolymers vs. statistical and random copolymers.
+    \end{itemize}
+    \item Step-growth copolymer synthesis.
+    \begin{itemize}
+        \item Overall copolymer composition is usually the same as the feed ratio as the reaction will need to be taken to 100\%.
+        \item Random copolymers are common as usually the reactivity of the functional groups in the different monomers of the same size.
+    \end{itemize}
+    \item So that's all the chemistry.
+    \item Now, we'll talk about some specific polymers.
+    \item PET.
+    \begin{itemize}
+        \item Poly(ethylene terephthalate).
+        \item Anything that says polyethylene on our clothes.
+        \item Coke bottles.
+        \item The most important commercial polymer.
+        \item Aka Mylar, Dacron, Terylene.
+        \item Melting point at \SI{255}{\celsius}.
+        \item Glassy transition temperature at \SI{80}{\celsius}.
+        \item Optically clear.
+        \item Potentially high crystallinity.
+        \item High density.
+        \item Cheap.
+        \item Good mechanical properties.
+        \item Good chemical resistance (labile in strong acids and bases).
+        \item Low dye-ability.
+        \item Fibers.
+        \begin{itemize}
+            \item $M_n>\num{15000}$.
+            \item Melt-spinning, etc.
+            \item Use in apparel, curtians, upholstery, fishing lines, ...
+        \end{itemize}
+        \item Films.
+        \begin{itemize}
+            \item Use in: Audio and video tapes, floppy disks, capacitors.
+        \end{itemize}
+        \item Bottles.
+        \begin{itemize}
+            \item $M_n>\num{25000}$.
+            \item Solid-state post condensation.
+            \item Low crystallinity pre-form; stretch blow molding.
+        \end{itemize}
+        \item \emph{These} are not the ones that leach into water; it's the polycarbonates, such as BPA.
+    \end{itemize}
+    \item PET synthsis.
+    \begin{itemize}
+        \item Ester-interchange route.
+        \item First stage.
+        \begin{itemize}
+            \item A mixture of dimethyl terephthalate and excess ethylene glycol (as solvent) are heated. Methanol is released as a vapor.
+        \end{itemize}
+        \item Second stage.
+        \begin{itemize}
+            \item Much hotter, lower pressure. Ethylene glycol comes off now and the polymer grows.
+        \end{itemize}
+        \item Second step.
+        \begin{itemize}
+            \item Antimony (Sb) centered polycondensation catalyst.
+            \item This catalyst is the reason we can get clear Sprite bottles now.
+            \item The reason we used to have green Sprite bottles is that the PET would be yellow with the old catalyst and then they would add a blue dye because no one wants to be drinking out of a pee-colored bottle.
+            \item Then the chemistry evolved and now we can make clear bottles.
+        \end{itemize}
+        \item Polyester side reactions.
+        \begin{itemize}
+            \item Ethylene glycol can self-react, releasing water, to form di-ethylene glycol.
+            \item We can also get dehydration.
+            \item The reason that polymers start to get brown at higher temperatures is that there's some degradation reactions forming UV chromophores; pure, it should be clear, white, or colorless.
+        \end{itemize}
+    \end{itemize}
+    \item Other polyesters.
+    \begin{itemize}
+        \item PETG.
+        \item Aliphatic polyesters.
+        \begin{itemize}
+            \item Not usually as useful.
+            \item Used as plasticizers for PVC.
+            \item Diols can be used as building blocks for polyurethane.
+            \item Poly(lactic acid) is the only commercial scale polymer made from biological sources.
+            \item Liquid crystalline polymers...
+        \end{itemize}
+    \end{itemize}
+    \item We'll start next class with BPA.
+\end{itemize}
+
+
+
+
+\end{document}

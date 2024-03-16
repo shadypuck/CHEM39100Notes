@@ -11,7 +11,403 @@
 \chapter{???}
 \section{???}
 \begin{itemize}
-    \item \marginnote{1/4:}
+    \item \marginnote{1/4:}Announcements.
+    \begin{itemize}
+        \item TA: Max Weires (\href{mailto:mweires@uchicago.edu}{mweires@uchicago.edu}).
+        \item Talks slowly enough.
+        \item This first lectures is a catchall to get everyone set.
+        \item This course is cross-listed MENG 25110/35110 and CHEM 39100.
+        \item There are handouts on Canvas. Ask to be added!
+        \item HW will be given out by Max; it's not graded, but it's critically important that (a) we do it and (b) we understand it. Exam questions are very much like the HW.
+        \item 1 HW question will appear in the Midterm and Final, so if we know the HW well, free marks!
+        \item Scheduled discussion section at 11:30?? Max will schedule a second one.
+        \item The entire grade is based on the two exams.
+        \item Feel free to interrupt him if needed.
+        \item Rowan's contact info.
+        \begin{itemize}
+            \item hi
+        \end{itemize}
+        \item Use a good book
+        \begin{itemize}
+            \item Odian's book is much more detailed than we need, but it's a great reference.
+            \item The Stevens book is a better introductory book if this is our first brush with the subject.
+        \end{itemize}
+        \item Ask him to publish the slides before lecture.
+    \end{itemize}
+    \item Schedule.
+    \emph{table}
+    \begin{itemize}
+        \item Two online classes while Rowan is traveling.
+        \item Midterm: 2/1.
+        \item Final: During finals week.
+    \end{itemize}
+    \item Point of this class: I give you a polymer structure, and you tell me how to make it.
+    \item Example polymers.
+    \begin{itemize}
+        \item Polycarbonate.
+        \item Poly...
+        \item Kevlar
+        \item PVC.
+        \item PP.
+    \end{itemize}
+    \item By the end of this class, we should be able to make all of these.
+    \item What do we need to consider when making a polymer?
+    \begin{itemize}
+        \item Polymer size: The physical properties of a polymer change with its size.
+        \begin{itemize}
+            \item Hugely important; don't let anyone tell you otherwise.
+            \item Polymer synthesis means nothing unless you can (a) measure its MW and (b) control it.
+        \end{itemize}
+        \item Polydispersity or dispersity (PD or "D stroke", IPUAC preferred): PDI - Polydispersity index.
+        \begin{itemize}
+            \item Polymers \emph{always} have a distribution of MWs.
+        \end{itemize}
+        \item Chemistry of the polymers.
+        \begin{itemize}
+            \item What atoms are in it; determines synthesis.
+        \end{itemize}
+        \item General structure: Linear, branched, star, etc.
+        \item Are there potential isomers (think copolymers; proteins are copolymers with 20 amino acids!).
+        \item Control of sequence in copolymers: Random, Block, etc.
+        \item What are the chain ends?
+        \begin{itemize}
+            \item Can they help us do more chemistry? If they're well-defined, they may be useful; varied, less so.
+        \end{itemize}
+        \item Rate of reaction (can it be controlled).
+        \begin{itemize}
+            \item Is this done very quickly, or does it take 20 days.
+        \end{itemize}
+    \end{itemize}
+    \item The above considerations are questions that should be asked of any polymer synthesis...
+    \item Note: The objective of the course is to understand the variety of tools that chemists have at their disposal to synthesize polymers.
+    \item \textbf{Polymer molecules}: Formed by the reaction of many monomer molecules, which add to each other. The resulting chain molecules exhibit new properties.
+    \item Effect of molecular weight in polyethylene.
+    \emph{table}
+    \begin{itemize}
+        \item Molecular weights in the millions can stop a bullet.
+        \item Implication: The chemical structure is no longer enough to tell you all properties.
+    \end{itemize}
+    \item How do we define the molecular weight? Degree of polymerization and MW.
+    \emph{picture; polymer parts}
+    \begin{itemize}
+        \item The physical properties change with the length of chains.
+        \item Averages are used, since a polymer material consists of many chain molecules of different length.
+        \item \textbf{Structural unit} = \textbf{monomer unit} = residue of monomers A,B... incorporated in the polymer chain.
+        \item \textbf{Repeating unit} = segment of one or more structural units.
+        \item PCL given as an example!
+        \item What people get wrong on the exam: Bracket placement. Be very careful about identifying the repeating unit!!
+        \item In the left case, $DP=n$, but in the right case, $DP=2n$.
+    \end{itemize}
+    \item \textbf{Number-average degree of polymerization}: The average number of structural units per polymer chain. \emph{Denoted by} $\bm{\overline{X_n}}$, $\bm{\overline{DP}}$.
+    \begin{itemize}
+        \item The overbar means "average."
+    \end{itemize}
+    \item Polymer size or chain length.
+    \begin{itemize}
+        \item The physical properties of a polymer change with its size.
+        \item So, we need to know the polymer size or molecular weight.
+        \item Two most important:
+        \item \textbf{Number average molecular weight}
+        \begin{equation*}
+            \overline{M_n} = \frac{\sum N_xM_x}{\sum N_x}
+        \end{equation*}
+        \begin{itemize}
+            \item Total weight of molecules divided by total number of molecules.
+        \end{itemize}
+        \item \textbf{Weight average molecular weight}
+        \begin{equation*}
+            \overline{M_w} = \frac{\sum W_xM_x}{\sum W_x}
+            = \frac{\sum N_xM_x^2}{\sum N_xM_x}
+        \end{equation*}
+        \begin{itemize}
+            \item Total weight of molecules divided by total weight of molecules??
+        \end{itemize}
+        \item \textbf{Degree of polymerization}
+        \begin{equation*}
+            \overline{X_n} = \frac{\overline{M_n}}{M_\text{repeat unit}}
+        \end{equation*}
+        \item We do it two different ways because some experimental techniques give us $\overline{M_n}$, some give us $\overline{M_w}$, and some give us both.
+        \item \textbf{Carotherts Equation}
+        \begin{equation*}
+            \overline{X_n} = \frac{1}{1-p}
+        \end{equation*}
+        where $p$ is the extent of the reaction (or fraction of conversion).
+        \begin{itemize}
+            \item We'll come back to this equation over and over agin.
+        \end{itemize}
+    \end{itemize}
+    \item Measuring average molecular weights.
+    \begin{itemize}
+        \item Techniques which measure properties that depend on the number of molecules give $M_n$.
+        \begin{itemize}
+            \item End group analysis (e.g., with NMR).
+            \item Osmometry.
+        \end{itemize}
+        \item Techniques which measure properties that depend on the size or mass of the molecules give $M_w$.
+        \begin{itemize}
+            \item Light Scattering.
+        \end{itemize}
+        \item Other techniques are relative, i.e., properties compared to known standars.
+        \begin{itemize}
+            \item Gel electrophoresis.
+            \item ...
+        \end{itemize}
+    \end{itemize}
+    \item Dispersity.
+    \emph{table}
+    \begin{itemize}
+        \item In synthetic polymers, the individual chain molecules are not the same weight.
+        \item A measure of the breadth of distribution of the molecula weights in a polymer is the dispersity (used to be termed the PDI):
+        \begin{equation*}
+            D = \frac{\overline{M_w}}{\overline{M_n}} > 1
+        \end{equation*}
+        \item Hypothetical single MWt polymer has $D=1.000$. Could be made with a tedious 20-step synthesis, but Rowan doesn't recommend that.
+        \item We'll talk a bit about living polymerizations.
+        \item Radical often gives 2, but can be 1.5.
+        \item Addition and step-growth (we'll talk more about them in a minute) give 2.0.
+        \begin{itemize}
+            \item The chemistry has to be almost quantitative (99.9\% if we wanna use it). At 90\%, we're already at PDI of 10.
+            \item Technical term: Shitty polymers, which are basically just oils that do nothing to us.
+            \item Almost all reactions have side reactions that kill termination.
+        \end{itemize}
+        \item High-conversion polymers have things dying often and the PDI grows.
+    \end{itemize}
+    \item The chemistry: The two fundamental mechanisms for polymerization.
+    \begin{itemize}
+        \item \textbf{Chain-growth}: Addition polymerization. E.g., Olefins, some ring openings.
+        \item \textbf{Step-growth}: Condensation polymerization. E.g., polyesters, polyamides.
+        \item Not perfect correspondence, though: Polyurethanes use step-growth, not condensation for some reason.
+        \begin{equation*}
+            \ce{OCN-R-NCO + HO-R$'$-OH -> Polyurethane}
+        \end{equation*}
+        \item Why distinguish between chain-growth and step-growth?
+        \begin{itemize}
+            \item The mechanisms and setups are quite different.
+        \end{itemize}
+    \end{itemize}
+    \item Chain (addition) polymerizations.
+    \emph{picture}
+    \begin{itemize}
+        \item \ce{R^*} + Monomer \ce{->} \ce{R-M^*}
+        \item And then repeat.
+        \item So a few initiatiors and a lot of polymers lead to fast buildup of molecular weight.
+        \item Only monomer, polymer, and a small number of growing chains present at any one time.
+        \begin{itemize}
+            \item This is key!
+            \item New car smell: We're getting high on the monomer, which wasn't fully removed from the polymers; the monomers are more volatile, hence us smelling it!
+            \item We have monomer at any stage of reaction, except we go to 100\% completion, but this almost never happens because of viscosity increasing.
+        \end{itemize}
+        \item All that happens as we to through time is we get more polymer chains; MW doesn't really vary throughout the process.
+    \end{itemize}
+    \item Step-growth polymerization.
+    \emph{picture}
+    \begin{itemize}
+        \item Any two components can add together to increase molecular weight.
+        \item Slow buildup of MW.
+        \item High conversions required to get high MW.
+        \begin{itemize}
+            \item This is doable, but it takes some skill.
+            \item Much easier to do chain growth.
+        \end{itemize}
+        \item If we made a car with step-growth, no new car smell! Monomer disappears very quickly.
+    \end{itemize}
+    \item Comparisons of chain- and step-growth polymerizations.
+    \begin{table}[h!]
+        \centering
+        \begin{tabular}{|c|c|}
+            \textbf{Step} & \textbf{Chain}\\
+            \hline
+            Growth by the reaction of any two oligomers & Growth by addition of monomer only at the end of one chain\\
+            Rapid loss of monomer species (First reaction produces dimer) & Some monomer remains even after long reaction times.\\
+            Driving force for the reaction is removal of the condensation product & Driving force for thie reaction energetics, i.e., conversion of 1 double bond into 2 single bonds (Addition)\\
+            Molar mass increases slowly throughout & Molar mass of backbone increases rapidly\\
+            Ends remain active & Chain not active after termination\\
+            ...
+        \end{tabular}
+        \caption{Comparison of chain- and step-growth polymerizations.}
+        \label{tab:ChainVsStep}
+    \end{table}
+    \begin{itemize}
+        \item This has been a favorite question in the past.
+    \end{itemize}
+    \item Double-bond polymerizations.
+    \begin{itemize}
+        \item This is really the focus of the first half of the course.
+        \item Driving force for the reaction is the conversion of 1 $\pi$-bond (ca. \SI[per-mode=symbol]{585}{\kilo\joule\per\mole} to 2 $\sigma$-bonds (2x ca. \SI[per-mode=symbol]{330}{\kilo\joule\per\mole})).
+        \item The overall polymerization generallly involves 4 basic reactions: Initiation, propagation, termination, and chain transfer.
+    \end{itemize}
+    \item \textbf{Initiation}: 
+    \item \textbf{Termination}: \emph{Also known as} \textbf{death}.
+    \item \textbf{Chain transfer}: New reactive species formed at same time growing polymer chain is deactivated (terminated).
+    \item Next few slides are for the engineers: There are only 3-4 OChem-era reaction mechanisms, which we'll go over right now; chem majors can yawn.
+    \begin{itemize}
+        \item Most reactions involve an electron-rich molecule (\textbf{nucleophile}) and an electron-poor molecule (electrophile).
+        \begin{itemize}
+            \item Rowan "is VERY PICKY with curved arrow formalism."
+        \end{itemize}
+        \item Radical reactions involve the coupling of two unpaired electrons, or can attack a double bond.
+        \begin{itemize}
+            \item A lot of polymerization involves radical chemistry.
+        \end{itemize}
+        \item A reactive carbon center (\ce{R^*}) can exist as a electrophile (carbenium ion, carboncation), carbon radical, or nucleophile (carbanion).
+        \item Only electron-poor double bonds will react with the anion. Only nucleophilic double bonds will react with carbocations.
+        \begin{itemize}
+            \item Implication: Not every double bond can be polymerized the same way!
+        \end{itemize}
+        \item The reactive species can be a free radical (neutral reactive species [RS]), cationic (RS is positive and electrophilic), and anionic [reactive species is negative and nucleophilic].
+        \begin{itemize}
+            \item So a common questions is, given a certain kind of bond, what kind of initiator would you use?
+        \end{itemize}
+        \item The reactive species depends on the substituents on the molecule.
+        \begin{itemize}
+            \item A bit of electron withdrawing often helps polymerization.
+            \item Radical: Requires X,Y to be EWG (to stabilize the radical).
+            \item Cationic: Requires X,Y to be EDGs (to stabilize the electron-poor carbenium ion).
+            \item Anionic: Requires X,Y to be EWGs (to stabilize the electron-rich carbanion).
+        \end{itemize}
+    \end{itemize}
+    \item Some monomers and how they can be polymerized.
+    \emph{table}
+    \item How to tell if a substituent is EDG or EWG.
+    \begin{itemize}
+        \item Electron density from the O lone pairs donate into the $\pi$-bond. Other heteroatoms with a lone pair can also donate electrons in this manner. Alkyl groups can also "donate" electron density to the double bond, but it is much weaker.
+        \item EWGs: Electron densituy from the $\pi$-bond is withdrawn by the carbonyl into the ester. Most substituents that have a multiple bond adjacent to the doulbe bond will withdraw electrons, e.g., CN. Halides are also EWGs.
+        \item Key point: Any time you can delocalize electron density, that makes the system more stable.
+        \begin{itemize}
+            \item If you can share electron density across many atoms, that dramatically increases stability.
+        \end{itemize}
+    \end{itemize}
+    \item Styrene derivatives; The effect of resonance.
+    \begin{itemize}
+        \item "If you look at it the wrong way, styrene will polymerize."
+        \item It's very reactive and can follow any of the mechanisms: Radical, cations, and anions can all be shared among 4 carbons!
+        \item It's not magic why certain initiators work; it's chemistry!
+        \item "Last thing you want to do is spend a month of your PhD trying to make a polymer only to realize you used the wrong initiating system."
+    \end{itemize}
+    \item Insertion "coordination" polymerization.
+    \begin{itemize}
+        \item In this type of polymerization, the metal is coordinated to the chain end.
+        \item It also coordinates to the monomer, in the process of activiating it, before inserting the monomer between the chain end and metal.
+        \item Ziegler-Natta and ...
+        \begin{itemize}
+            \item We'll have a class on these.
+        \end{itemize}
+    \end{itemize}
+    \item Ring-opening polymerizations (ROP).
+    \begin{itemize}
+        \item Thermodynamic driving force here is the release of ring strain.
+        \item This is how polyethylene oxide is made.
+        \item ROP usually requires an initiator, c.f., vinyl additio polymerizations.
+        \item ROP can be initiated by either anionic or cationic polymerizations depending on the monomer.
+        \item Polymerization, generally, by addition of monomer only to reactive chain end, c.f., vinyl additio polymerizations.
+    \end{itemize}
+    \item Living polymerizations.
+    \begin{itemize}
+        \item Chain polymerizations where chain transfer and termination are either very small or nonexistent and all chains are initiated at once.
+        \item Generally step-growth (Rowan knows no chain-growth examples).
+        \item There's no chain death here; without death, the system is \emph{living}!
+        \item Normal chain growth: With time, number of polymer chains increases and $\overline{M_n}$ stays the same.
+        \item Living growth: Same number of polymer chains, but $\overline{M_n}$ increases.
+        \item Living polymerizations are a great way to control molecular weight! If you want a certain MW, just stop after a certain amount of time.
+        \item Kinetics: $R_t=0$; no termination. $R_i\gg R_p$: Rate of initiation must be faster than rate of propagation so that all chains start growing at once and they all increase MW at the same time.
+        \item If we have these two kinetic conditinos, then
+        \begin{equation*}
+            X_n = \frac{[M]_\text{consumed}}{[I]}
+        \end{equation*}
+        and $D\approx 1$.
+    \end{itemize}
+    \item Step-growth polymerization.
+    \begin{itemize}
+        \item Esterification.
+        \begin{itemize}
+            \item Acid chloride plus alcohol makes ester and HCl.
+            \item This is condensation.
+        \end{itemize}
+        \item Polyesterification.
+        \begin{itemize}
+            \item Just take a di-acid chloride and a diol and condense!
+            \item \ce{HCl} isn't a great nucleophile, but it can still reverse the polymerization.
+            \item Thus, to get high MW, you want to withdraw the condensation product.
+        \end{itemize}
+    \end{itemize}
+    \item Types of polymers formed by step-growth polymerizations.
+    \emph{picture with 6 subfigures}
+    \begin{itemize}
+        \item Technically, "polyimine" should be "polyamine," but whatever says Rowan.
+    \end{itemize}
+    \item General mechanisms: Substitution reactions.
+    \begin{itemize}
+        \item SN2, two molecules involved in the RDS.
+        \item SN1, one molecule involved in the RDS.
+    \end{itemize}
+    \item General mechanism: acyl substitution.
+    \begin{itemize}
+        \item Polyester or polyamide formation.
+        \item Remember the famous/infamous tetrahedral intermediate!
+        \item Rate depends on how good the LG is; chloride is a great leaving group, which is why acid chlorides are so reactive!
+        \item Note.
+        \begin{itemize}
+            \item This is a substitution reaction; however, the mechanism is slightly different from a normal SN2 mechanism.
+            \item The electrophile can be an acid chloride, acid anhydride, ester, or just an acid, although the reaction is slower the worse the leaving group X is.
+            \begin{itemize}
+                \item Acids need like \SI{200}{\celsius}.
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+    \item Comparision of chain- and step-growth polymerizations.
+    \begin{itemize}
+        \item Chain-growth: Slow initiation, fast propagation yields increasing number of chains with same weight.
+        \begin{itemize}
+            \item $p=R_p/(R_p+R_t+R_{ct})$ from the Carothers Equation, where $R_p$ is rate of propagation, $R_t$ is rate of termination, and $R_{ct}$ is rate of chain transfer.
+        \end{itemize}
+        \item Step-growth: Exponential increase in weight toward the end; needs high conversion! Essentially, weight follows the equation $2^n$: Monomers to dimers to tetramers to octomers to 16-mers, on and on.
+        \begin{itemize}
+            \item $p$ is percent of functional groups reacted divided by 100.
+        \end{itemize}
+    \end{itemize}
+    \item Possible isomers in polymers.
+    \begin{itemize}
+        \item Structural isomers.
+        \item Sequence isomers.
+        \item Stereoisomers.
+        \item Geometric isomers.
+        \item Regioisomers.
+    \end{itemize}
+    \item \textbf{Structural isomers}.
+    \begin{itemize}
+        \item Linear vs. branched.
+        \item Branched polymers have very different physical properties to linear polymers; less crystalline...
+    \end{itemize}
+    \item Sequence isomerism.
+    \begin{itemize}
+        \item There are generally two possible ways in which a monomer can add to a reactive site.
+        \item Most olefinic monomers give almost exclusively HD polymers, mainly on account of steric hindrance and stability of the active site.
+        \item However, some polymers (e.g, PVF) have a significant amount of HH and TT placements.
+        \item ?? could be the weakest link in our polymers.
+    \end{itemize}
+    \item Stereoisomers.
+    \begin{itemize}
+        \item Stereochemistry of addition polymerization of olefins.
+        \item The two faces of a double bond or reactive center -- prochirality.
+        \item So for any polymerization of an unsymmetrical double bond, there are another two possible ways for the monomer to be added to the polymer chain.
+    \end{itemize}
+    \item Tacticity.
+    \begin{itemize}
+        \item Stereoisomerism plays a major role in controlling the polymer's ability to crystallize.
+        \item Three ggeneral types: Isotactic, syndiontactic, atactic.
+        \begin{itemize}
+            \item Remember by drawing letters I,S through the polymer shape!
+        \end{itemize}
+    \end{itemize}
+    \item Dyad tacticity is defined to be the fraction of pairs of adjacent units that are either isotactic or syndiotactic to one another.
+    \begin{itemize}
+        \item Triads exist, too!
+    \end{itemize}
+    \item Random tacticity.
+    \item Radical polymerization.
+    \begin{itemize}
+        \item When we do a polymerization, we'll generally...
+    \end{itemize}
 \end{itemize}
 
 
